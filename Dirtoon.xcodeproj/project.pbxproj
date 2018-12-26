@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1A1362621D34E400059379A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1362521D34E400059379A /* AppDelegate.m */; };
+		C1A1362921D34E400059379A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1362821D34E400059379A /* ViewController.m */; };
+		C1A1362C21D34E400059379A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362A21D34E400059379A /* Main.storyboard */; };
+		C1A1362E21D34E410059379A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362D21D34E410059379A /* Assets.xcassets */; };
+		C1A1363121D34E410059379A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362F21D34E410059379A /* LaunchScreen.storyboard */; };
+		C1A1363421D34E410059379A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1363321D34E410059379A /* main.m */; };
+		C1A1363E21D34E410059379A /* DirtoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1363D21D34E410059379A /* DirtoonTests.m */; };
+		C1A1364921D34E410059379A /* DirtoonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1364821D34E410059379A /* DirtoonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1A1363A21D34E410059379A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A1361921D34E400059379A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A1362021D34E400059379A;
+			remoteInfo = Dirtoon;
+		};
+		C1A1364521D34E410059379A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1A1361921D34E400059379A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1A1362021D34E400059379A;
+			remoteInfo = Dirtoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1A1362121D34E400059379A /* Dirtoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dirtoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A1362421D34E400059379A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1A1362521D34E400059379A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1A1362721D34E400059379A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1A1362821D34E400059379A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1A1362B21D34E400059379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1A1362D21D34E410059379A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1A1363021D34E410059379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1A1363221D34E410059379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A1363321D34E410059379A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1A1363921D34E410059379A /* DirtoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A1363D21D34E410059379A /* DirtoonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirtoonTests.m; sourceTree = "<group>"; };
+		C1A1363F21D34E410059379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A1364421D34E410059379A /* DirtoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A1364821D34E410059379A /* DirtoonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirtoonUITests.m; sourceTree = "<group>"; };
+		C1A1364A21D34E410059379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A1361E21D34E400059379A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1363621D34E410059379A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1364121D34E410059379A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1A1361821D34E400059379A = {
+			isa = PBXGroup;
+			children = (
+				C1A1362321D34E400059379A /* Dirtoon */,
+				C1A1363C21D34E410059379A /* DirtoonTests */,
+				C1A1364721D34E410059379A /* DirtoonUITests */,
+				C1A1362221D34E400059379A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A1362221D34E400059379A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1362121D34E400059379A /* Dirtoon.app */,
+				C1A1363921D34E410059379A /* DirtoonTests.xctest */,
+				C1A1364421D34E410059379A /* DirtoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1A1362321D34E400059379A /* Dirtoon */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1362421D34E400059379A /* AppDelegate.h */,
+				C1A1362521D34E400059379A /* AppDelegate.m */,
+				C1A1362721D34E400059379A /* ViewController.h */,
+				C1A1362821D34E400059379A /* ViewController.m */,
+				C1A1362A21D34E400059379A /* Main.storyboard */,
+				C1A1362D21D34E410059379A /* Assets.xcassets */,
+				C1A1362F21D34E410059379A /* LaunchScreen.storyboard */,
+				C1A1363221D34E410059379A /* Info.plist */,
+				C1A1363321D34E410059379A /* main.m */,
+			);
+			path = Dirtoon;
+			sourceTree = "<group>";
+		};
+		C1A1363C21D34E410059379A /* DirtoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1363D21D34E410059379A /* DirtoonTests.m */,
+				C1A1363F21D34E410059379A /* Info.plist */,
+			);
+			path = DirtoonTests;
+			sourceTree = "<group>";
+		};
+		C1A1364721D34E410059379A /* DirtoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1364821D34E410059379A /* DirtoonUITests.m */,
+				C1A1364A21D34E410059379A /* Info.plist */,
+			);
+			path = DirtoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A1362021D34E400059379A /* Dirtoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A1364D21D34E410059379A /* Build configuration list for PBXNativeTarget "Dirtoon" */;
+			buildPhases = (
+				C1A1361D21D34E400059379A /* Sources */,
+				C1A1361E21D34E400059379A /* Frameworks */,
+				C1A1361F21D34E400059379A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dirtoon;
+			productName = Dirtoon;
+			productReference = C1A1362121D34E400059379A /* Dirtoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1A1363821D34E410059379A /* DirtoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A1365021D34E410059379A /* Build configuration list for PBXNativeTarget "DirtoonTests" */;
+			buildPhases = (
+				C1A1363521D34E410059379A /* Sources */,
+				C1A1363621D34E410059379A /* Frameworks */,
+				C1A1363721D34E410059379A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A1363B21D34E410059379A /* PBXTargetDependency */,
+			);
+			name = DirtoonTests;
+			productName = DirtoonTests;
+			productReference = C1A1363921D34E410059379A /* DirtoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1A1364321D34E410059379A /* DirtoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A1365321D34E410059379A /* Build configuration list for PBXNativeTarget "DirtoonUITests" */;
+			buildPhases = (
+				C1A1364021D34E410059379A /* Sources */,
+				C1A1364121D34E410059379A /* Frameworks */,
+				C1A1364221D34E410059379A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1A1364621D34E410059379A /* PBXTargetDependency */,
+			);
+			name = DirtoonUITests;
+			productName = DirtoonUITests;
+			productReference = C1A1364421D34E410059379A /* DirtoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A1361921D34E400059379A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = godloong;
+				TargetAttributes = {
+					C1A1362021D34E400059379A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C1A1363821D34E410059379A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1A1362021D34E400059379A;
+					};
+					C1A1364321D34E410059379A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C1A1362021D34E400059379A;
+					};
+				};
+			};
+			buildConfigurationList = C1A1361C21D34E400059379A /* Build configuration list for PBXProject "Dirtoon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A1361821D34E400059379A;
+			productRefGroup = C1A1362221D34E400059379A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A1362021D34E400059379A /* Dirtoon */,
+				C1A1363821D34E410059379A /* DirtoonTests */,
+				C1A1364321D34E410059379A /* DirtoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A1361F21D34E400059379A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A1363121D34E410059379A /* LaunchScreen.storyboard in Resources */,
+				C1A1362E21D34E410059379A /* Assets.xcassets in Resources */,
+				C1A1362C21D34E400059379A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1363721D34E410059379A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1364221D34E410059379A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A1361D21D34E400059379A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A1362921D34E400059379A /* ViewController.m in Sources */,
+				C1A1363421D34E410059379A /* main.m in Sources */,
+				C1A1362621D34E400059379A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1363521D34E410059379A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A1363E21D34E410059379A /* DirtoonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A1364021D34E410059379A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1A1364921D34E410059379A /* DirtoonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1A1363B21D34E410059379A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1A1362021D34E400059379A /* Dirtoon */;
+			targetProxy = C1A1363A21D34E410059379A /* PBXContainerItemProxy */;
+		};
+		C1A1364621D34E410059379A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1A1362021D34E400059379A /* Dirtoon */;
+			targetProxy = C1A1364521D34E410059379A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1A1362A21D34E400059379A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A1362B21D34E400059379A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1A1362F21D34E410059379A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1A1363021D34E410059379A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1A1364B21D34E410059379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1A1364C21D34E410059379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A1364E21D34E410059379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = Dirtoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.Dirtoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1A1364F21D34E410059379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = Dirtoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.Dirtoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1A1365121D34E410059379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = DirtoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.DirtoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dirtoon.app/Dirtoon";
+			};
+			name = Debug;
+		};
+		C1A1365221D34E410059379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = DirtoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.DirtoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dirtoon.app/Dirtoon";
+			};
+			name = Release;
+		};
+		C1A1365421D34E410059379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = DirtoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.DirtoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dirtoon;
+			};
+			name = Debug;
+		};
+		C1A1365521D34E410059379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 943H4SZ399;
+				INFOPLIST_FILE = DirtoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.DirtoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dirtoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A1361C21D34E400059379A /* Build configuration list for PBXProject "Dirtoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A1364B21D34E410059379A /* Debug */,
+				C1A1364C21D34E410059379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A1364D21D34E410059379A /* Build configuration list for PBXNativeTarget "Dirtoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A1364E21D34E410059379A /* Debug */,
+				C1A1364F21D34E410059379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A1365021D34E410059379A /* Build configuration list for PBXNativeTarget "DirtoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A1365121D34E410059379A /* Debug */,
+				C1A1365221D34E410059379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A1365321D34E410059379A /* Build configuration list for PBXNativeTarget "DirtoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A1365421D34E410059379A /* Debug */,
+				C1A1365521D34E410059379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A1361921D34E400059379A /* Project object */;
+}
