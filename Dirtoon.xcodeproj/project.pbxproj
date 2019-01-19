@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C110359E21E70E7900408C87 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C110359D21E70E7900408C87 /* RechargeViewController.m */; };
+		C11035A221E77DE200408C87 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11035A121E77DE200408C87 /* Launch Screen.storyboard */; };
+		C13AA3C321E6220800BEC772 /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13AA3C221E6220800BEC772 /* PersonalViewController.m */; };
+		C13AA3C621E623FD00BEC772 /* PersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C13AA3C521E623FD00BEC772 /* PersonalCell.m */; };
+		C161BD5F21ECAC640094B9B1 /* XHChatQQ.m in Sources */ = {isa = PBXBuildFile; fileRef = C161BD5E21ECAC640094B9B1 /* XHChatQQ.m */; };
+		C161BD6221EE1DB40094B9B1 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C161BD6021EE1DB30094B9B1 /* AlipaySDK.bundle */; };
+		C161BD6321EE1DB40094B9B1 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6121EE1DB40094B9B1 /* AlipaySDK.framework */; };
+		C161BD6521EE1DEF0094B9B1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6421EE1DEF0094B9B1 /* libc++.tbd */; };
+		C161BD6721EE1DF90094B9B1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6621EE1DF90094B9B1 /* libz.tbd */; };
+		C161BD6921EE1E070094B9B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6821EE1E070094B9B1 /* SystemConfiguration.framework */; };
+		C161BD6B21EE1E170094B9B1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6A21EE1E170094B9B1 /* CoreTelephony.framework */; };
+		C161BD6D21EE1E250094B9B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6C21EE1E250094B9B1 /* QuartzCore.framework */; };
+		C161BD6F21EE1E360094B9B1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD6E21EE1E360094B9B1 /* CoreText.framework */; };
+		C161BD7121EE1E440094B9B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD7021EE1E440094B9B1 /* CoreGraphics.framework */; };
+		C161BD7321EE1E4E0094B9B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD7221EE1E4E0094B9B1 /* UIKit.framework */; };
+		C161BD7521EE1E5A0094B9B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD7421EE1E5A0094B9B1 /* Foundation.framework */; };
+		C161BD7721EE1E640094B9B1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD7621EE1E640094B9B1 /* CFNetwork.framework */; };
+		C161BD7921EE1E6F0094B9B1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C161BD7821EE1E6F0094B9B1 /* CoreMotion.framework */; };
 		C1A1362621D34E400059379A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1362521D34E400059379A /* AppDelegate.m */; };
-		C1A1362921D34E400059379A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1362821D34E400059379A /* ViewController.m */; };
-		C1A1362C21D34E400059379A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362A21D34E400059379A /* Main.storyboard */; };
 		C1A1362E21D34E410059379A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362D21D34E410059379A /* Assets.xcassets */; };
-		C1A1363121D34E410059379A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1A1362F21D34E410059379A /* LaunchScreen.storyboard */; };
 		C1A1363421D34E410059379A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1363321D34E410059379A /* main.m */; };
 		C1A1363E21D34E410059379A /* DirtoonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1363D21D34E410059379A /* DirtoonTests.m */; };
 		C1A1364921D34E410059379A /* DirtoonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1364821D34E410059379A /* DirtoonUITests.m */; };
+		C1A1367521E207420059379A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1367321E207410059379A /* HomeViewController.m */; };
+		C1A1367C21E208730059379A /* Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1367B21E208730059379A /* Connect.m */; };
+		C1A1367F21E30F510059379A /* Caricature.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1367E21E30F510059379A /* Caricature.m */; };
+		C1A1368221E313110059379A /* CaricatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1368121E313110059379A /* CaricatureCell.m */; };
+		C1A1368521E3393F0059379A /* CaricatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1368421E3393F0059379A /* CaricatureViewController.m */; };
+		C1A1368821E33D330059379A /* ChapterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1368721E33D330059379A /* ChapterCell.m */; };
+		C1A1368B21E343910059379A /* Chapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1368A21E343910059379A /* Chapter.m */; };
+		C1A1368E21E365480059379A /* WatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1368D21E365480059379A /* WatchViewController.m */; };
+		C1A1369121E36B800059379A /* QuitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369021E36B800059379A /* QuitButton.m */; };
+		C1A1369421E375430059379A /* WatchScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369321E375430059379A /* WatchScrollView.m */; };
+		C1A1369721E44B040059379A /* PayMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369621E44B040059379A /* PayMessageView.m */; };
+		C1A1369A21E450F30059379A /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369821E450F30059379A /* UIControl+Block.m */; };
+		C1A1369D21E451000059379A /* UIView+Events.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369C21E451000059379A /* UIView+Events.m */; };
+		C1A136A021E46B340059379A /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A1369F21E46B340059379A /* WelcomeViewController.m */; };
+		C1A136A321E46F450059379A /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A136A221E46F450059379A /* TabBarViewController.m */; };
+		C1A136A621E47EA50059379A /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A136A521E47EA50059379A /* RegistViewController.m */; };
+		C1A136A921E47EB70059379A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A136A821E47EB70059379A /* LoginViewController.m */; };
+		C1A136AC21E4808B0059379A /* LoginRegistField.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A136AB21E4808B0059379A /* LoginRegistField.m */; };
+		C1A136AF21E4A3E10059379A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A136AE21E4A3E10059379A /* User.m */; };
+		D3441E05E0DBCCFF27F70019 /* Pods_Dirtoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812F90270A375A862EFBD2F4 /* Pods_Dirtoon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +70,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		812F90270A375A862EFBD2F4 /* Pods_Dirtoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dirtoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A22F46D5D995BC236E1CBF /* Pods-Dirtoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dirtoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dirtoon/Pods-Dirtoon.release.xcconfig"; sourceTree = "<group>"; };
+		AAF1FEFEFBA8AB9DD372BCE4 /* Pods-Dirtoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dirtoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dirtoon/Pods-Dirtoon.debug.xcconfig"; sourceTree = "<group>"; };
+		C110359C21E70E7900408C87 /* RechargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
+		C110359D21E70E7900408C87 /* RechargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		C11035A121E77DE200408C87 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C13AA3C121E6220800BEC772 /* PersonalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		C13AA3C221E6220800BEC772 /* PersonalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		C13AA3C421E623FD00BEC772 /* PersonalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCell.h; sourceTree = "<group>"; };
+		C13AA3C521E623FD00BEC772 /* PersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCell.m; sourceTree = "<group>"; };
+		C161BD5D21ECAC640094B9B1 /* XHChatQQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHChatQQ.h; sourceTree = "<group>"; };
+		C161BD5E21ECAC640094B9B1 /* XHChatQQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHChatQQ.m; sourceTree = "<group>"; };
+		C161BD6021EE1DB30094B9B1 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		C161BD6121EE1DB40094B9B1 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		C161BD6421EE1DEF0094B9B1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C161BD6621EE1DF90094B9B1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C161BD6821EE1E070094B9B1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C161BD6A21EE1E170094B9B1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C161BD6C21EE1E250094B9B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C161BD6E21EE1E360094B9B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C161BD7021EE1E440094B9B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C161BD7221EE1E4E0094B9B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C161BD7421EE1E5A0094B9B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C161BD7621EE1E640094B9B1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C161BD7821EE1E6F0094B9B1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		C1A1362121D34E400059379A /* Dirtoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dirtoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A1362421D34E400059379A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1A1362521D34E400059379A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1A1362721D34E400059379A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1A1362821D34E400059379A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1A1362B21D34E400059379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1A1362D21D34E410059379A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1A1363021D34E410059379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1A1363221D34E410059379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1A1363321D34E410059379A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1A1363921D34E410059379A /* DirtoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +107,45 @@
 		C1A1364421D34E410059379A /* DirtoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A1364821D34E410059379A /* DirtoonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirtoonUITests.m; sourceTree = "<group>"; };
 		C1A1364A21D34E410059379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1A1365921DC87560059379A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C1A1367321E207410059379A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C1A1367421E207420059379A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C1A1367A21E208730059379A /* Connect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect.h; sourceTree = "<group>"; };
+		C1A1367B21E208730059379A /* Connect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Connect.m; sourceTree = "<group>"; };
+		C1A1367D21E30F510059379A /* Caricature.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caricature.h; sourceTree = "<group>"; };
+		C1A1367E21E30F510059379A /* Caricature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caricature.m; sourceTree = "<group>"; };
+		C1A1368021E313110059379A /* CaricatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaricatureCell.h; sourceTree = "<group>"; };
+		C1A1368121E313110059379A /* CaricatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaricatureCell.m; sourceTree = "<group>"; };
+		C1A1368321E3393F0059379A /* CaricatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaricatureViewController.h; sourceTree = "<group>"; };
+		C1A1368421E3393F0059379A /* CaricatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaricatureViewController.m; sourceTree = "<group>"; };
+		C1A1368621E33D330059379A /* ChapterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChapterCell.h; sourceTree = "<group>"; };
+		C1A1368721E33D330059379A /* ChapterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChapterCell.m; sourceTree = "<group>"; };
+		C1A1368921E343910059379A /* Chapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter.h; sourceTree = "<group>"; };
+		C1A1368A21E343910059379A /* Chapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter.m; sourceTree = "<group>"; };
+		C1A1368C21E365470059379A /* WatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchViewController.h; sourceTree = "<group>"; };
+		C1A1368D21E365480059379A /* WatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchViewController.m; sourceTree = "<group>"; };
+		C1A1368F21E36B800059379A /* QuitButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuitButton.h; sourceTree = "<group>"; };
+		C1A1369021E36B800059379A /* QuitButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuitButton.m; sourceTree = "<group>"; };
+		C1A1369221E375430059379A /* WatchScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchScrollView.h; sourceTree = "<group>"; };
+		C1A1369321E375430059379A /* WatchScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchScrollView.m; sourceTree = "<group>"; };
+		C1A1369521E44B040059379A /* PayMessageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayMessageView.h; sourceTree = "<group>"; };
+		C1A1369621E44B040059379A /* PayMessageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayMessageView.m; sourceTree = "<group>"; };
+		C1A1369821E450F30059379A /* UIControl+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Block.m"; sourceTree = "<group>"; };
+		C1A1369921E450F30059379A /* UIControl+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Block.h"; sourceTree = "<group>"; };
+		C1A1369B21E451000059379A /* UIView+Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Events.h"; sourceTree = "<group>"; };
+		C1A1369C21E451000059379A /* UIView+Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Events.m"; sourceTree = "<group>"; };
+		C1A1369E21E46B340059379A /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		C1A1369F21E46B340059379A /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		C1A136A121E46F450059379A /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		C1A136A221E46F450059379A /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		C1A136A421E47EA50059379A /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		C1A136A521E47EA50059379A /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		C1A136A721E47EB70059379A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C1A136A821E47EB70059379A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C1A136AA21E4808B0059379A /* LoginRegistField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRegistField.h; sourceTree = "<group>"; };
+		C1A136AB21E4808B0059379A /* LoginRegistField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRegistField.m; sourceTree = "<group>"; };
+		C1A136AD21E4A3E10059379A /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C1A136AE21E4A3E10059379A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +153,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C161BD7921EE1E6F0094B9B1 /* CoreMotion.framework in Frameworks */,
+				C161BD7721EE1E640094B9B1 /* CFNetwork.framework in Frameworks */,
+				C161BD7521EE1E5A0094B9B1 /* Foundation.framework in Frameworks */,
+				C161BD7321EE1E4E0094B9B1 /* UIKit.framework in Frameworks */,
+				C161BD7121EE1E440094B9B1 /* CoreGraphics.framework in Frameworks */,
+				C161BD6F21EE1E360094B9B1 /* CoreText.framework in Frameworks */,
+				C161BD6D21EE1E250094B9B1 /* QuartzCore.framework in Frameworks */,
+				C161BD6B21EE1E170094B9B1 /* CoreTelephony.framework in Frameworks */,
+				C161BD6921EE1E070094B9B1 /* SystemConfiguration.framework in Frameworks */,
+				C161BD6721EE1DF90094B9B1 /* libz.tbd in Frameworks */,
+				C161BD6521EE1DEF0094B9B1 /* libc++.tbd in Frameworks */,
+				D3441E05E0DBCCFF27F70019 /* Pods_Dirtoon.framework in Frameworks */,
+				C161BD6321EE1DB40094B9B1 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +186,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D3C60CB30140F3B12EBDBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAF1FEFEFBA8AB9DD372BCE4 /* Pods-Dirtoon.debug.xcconfig */,
+				98A22F46D5D995BC236E1CBF /* Pods-Dirtoon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53DAE96E1B7FF155124647CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C161BD7821EE1E6F0094B9B1 /* CoreMotion.framework */,
+				C161BD7621EE1E640094B9B1 /* CFNetwork.framework */,
+				C161BD7421EE1E5A0094B9B1 /* Foundation.framework */,
+				C161BD7221EE1E4E0094B9B1 /* UIKit.framework */,
+				C161BD7021EE1E440094B9B1 /* CoreGraphics.framework */,
+				C161BD6E21EE1E360094B9B1 /* CoreText.framework */,
+				C161BD6C21EE1E250094B9B1 /* QuartzCore.framework */,
+				C161BD6A21EE1E170094B9B1 /* CoreTelephony.framework */,
+				C161BD6821EE1E070094B9B1 /* SystemConfiguration.framework */,
+				C161BD6621EE1DF90094B9B1 /* libz.tbd */,
+				C161BD6421EE1DEF0094B9B1 /* libc++.tbd */,
+				812F90270A375A862EFBD2F4 /* Pods_Dirtoon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1A1361821D34E400059379A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +221,8 @@
 				C1A1363C21D34E410059379A /* DirtoonTests */,
 				C1A1364721D34E410059379A /* DirtoonUITests */,
 				C1A1362221D34E400059379A /* Products */,
+				05D3C60CB30140F3B12EBDBD /* Pods */,
+				53DAE96E1B7FF155124647CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +239,19 @@
 		C1A1362321D34E400059379A /* Dirtoon */ = {
 			isa = PBXGroup;
 			children = (
+				C1A1367621E207830059379A /* Controllers */,
+				C1A1367721E207D60059379A /* Views */,
+				C1A1367821E207EC0059379A /* Models */,
+				C1A1367921E208150059379A /* General */,
 				C1A1362421D34E400059379A /* AppDelegate.h */,
 				C1A1362521D34E400059379A /* AppDelegate.m */,
-				C1A1362721D34E400059379A /* ViewController.h */,
-				C1A1362821D34E400059379A /* ViewController.m */,
-				C1A1362A21D34E400059379A /* Main.storyboard */,
 				C1A1362D21D34E410059379A /* Assets.xcassets */,
-				C1A1362F21D34E410059379A /* LaunchScreen.storyboard */,
+				C11035A121E77DE200408C87 /* Launch Screen.storyboard */,
 				C1A1363221D34E410059379A /* Info.plist */,
 				C1A1363321D34E410059379A /* main.m */,
+				C1A1365921DC87560059379A /* PrefixHeader.pch */,
+				C161BD6021EE1DB30094B9B1 /* AlipaySDK.bundle */,
+				C161BD6121EE1DB40094B9B1 /* AlipaySDK.framework */,
 			);
 			path = Dirtoon;
 			sourceTree = "<group>";
@@ -132,6 +274,80 @@
 			path = DirtoonUITests;
 			sourceTree = "<group>";
 		};
+		C1A1367621E207830059379A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1A136A121E46F450059379A /* TabBarViewController.h */,
+				C1A136A221E46F450059379A /* TabBarViewController.m */,
+				C1A1367421E207420059379A /* HomeViewController.h */,
+				C1A1367321E207410059379A /* HomeViewController.m */,
+				C1A1368321E3393F0059379A /* CaricatureViewController.h */,
+				C1A1368421E3393F0059379A /* CaricatureViewController.m */,
+				C1A1368C21E365470059379A /* WatchViewController.h */,
+				C1A1368D21E365480059379A /* WatchViewController.m */,
+				C1A1369E21E46B340059379A /* WelcomeViewController.h */,
+				C1A1369F21E46B340059379A /* WelcomeViewController.m */,
+				C1A136A421E47EA50059379A /* RegistViewController.h */,
+				C1A136A521E47EA50059379A /* RegistViewController.m */,
+				C1A136A721E47EB70059379A /* LoginViewController.h */,
+				C1A136A821E47EB70059379A /* LoginViewController.m */,
+				C13AA3C121E6220800BEC772 /* PersonalViewController.h */,
+				C13AA3C221E6220800BEC772 /* PersonalViewController.m */,
+				C110359C21E70E7900408C87 /* RechargeViewController.h */,
+				C110359D21E70E7900408C87 /* RechargeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C1A1367721E207D60059379A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1368021E313110059379A /* CaricatureCell.h */,
+				C1A1368121E313110059379A /* CaricatureCell.m */,
+				C1A1368621E33D330059379A /* ChapterCell.h */,
+				C1A1368721E33D330059379A /* ChapterCell.m */,
+				C1A1368F21E36B800059379A /* QuitButton.h */,
+				C1A1369021E36B800059379A /* QuitButton.m */,
+				C1A1369221E375430059379A /* WatchScrollView.h */,
+				C1A1369321E375430059379A /* WatchScrollView.m */,
+				C1A1369521E44B040059379A /* PayMessageView.h */,
+				C1A1369621E44B040059379A /* PayMessageView.m */,
+				C1A136AA21E4808B0059379A /* LoginRegistField.h */,
+				C1A136AB21E4808B0059379A /* LoginRegistField.m */,
+				C13AA3C421E623FD00BEC772 /* PersonalCell.h */,
+				C13AA3C521E623FD00BEC772 /* PersonalCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1A1367821E207EC0059379A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1367D21E30F510059379A /* Caricature.h */,
+				C1A1367E21E30F510059379A /* Caricature.m */,
+				C1A1368921E343910059379A /* Chapter.h */,
+				C1A1368A21E343910059379A /* Chapter.m */,
+				C1A136AD21E4A3E10059379A /* User.h */,
+				C1A136AE21E4A3E10059379A /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1A1367921E208150059379A /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C1A1367A21E208730059379A /* Connect.h */,
+				C1A1367B21E208730059379A /* Connect.m */,
+				C1A1369921E450F30059379A /* UIControl+Block.h */,
+				C1A1369821E450F30059379A /* UIControl+Block.m */,
+				C1A1369B21E451000059379A /* UIView+Events.h */,
+				C1A1369C21E451000059379A /* UIView+Events.m */,
+				C161BD5D21ECAC640094B9B1 /* XHChatQQ.h */,
+				C161BD5E21ECAC640094B9B1 /* XHChatQQ.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1A1364D21D34E410059379A /* Build configuration list for PBXNativeTarget "Dirtoon" */;
 			buildPhases = (
+				4485725E760EBEA2053407BD /* [CP] Check Pods Manifest.lock */,
 				C1A1361D21D34E400059379A /* Sources */,
 				C1A1361E21D34E400059379A /* Frameworks */,
 				C1A1361F21D34E400059379A /* Resources */,
+				199886E077A521D9DE2320FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +453,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A1363121D34E410059379A /* LaunchScreen.storyboard in Resources */,
+				C161BD6221EE1DB40094B9B1 /* AlipaySDK.bundle in Resources */,
 				C1A1362E21D34E410059379A /* Assets.xcassets in Resources */,
-				C1A1362C21D34E400059379A /* Main.storyboard in Resources */,
+				C11035A221E77DE200408C87 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +475,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		199886E077A521D9DE2320FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dirtoon/Pods-Dirtoon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dirtoon/Pods-Dirtoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4485725E760EBEA2053407BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dirtoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1A1361D21D34E400059379A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A1362921D34E400059379A /* ViewController.m in Sources */,
+				C1A1368221E313110059379A /* CaricatureCell.m in Sources */,
+				C1A1369421E375430059379A /* WatchScrollView.m in Sources */,
+				C1A136A321E46F450059379A /* TabBarViewController.m in Sources */,
 				C1A1363421D34E410059379A /* main.m in Sources */,
+				C1A1369721E44B040059379A /* PayMessageView.m in Sources */,
+				C1A136AC21E4808B0059379A /* LoginRegistField.m in Sources */,
+				C1A1368521E3393F0059379A /* CaricatureViewController.m in Sources */,
+				C13AA3C621E623FD00BEC772 /* PersonalCell.m in Sources */,
+				C1A1367F21E30F510059379A /* Caricature.m in Sources */,
+				C1A136AF21E4A3E10059379A /* User.m in Sources */,
+				C1A1369D21E451000059379A /* UIView+Events.m in Sources */,
+				C13AA3C321E6220800BEC772 /* PersonalViewController.m in Sources */,
 				C1A1362621D34E400059379A /* AppDelegate.m in Sources */,
+				C1A1367C21E208730059379A /* Connect.m in Sources */,
+				C1A1367521E207420059379A /* HomeViewController.m in Sources */,
+				C1A1368B21E343910059379A /* Chapter.m in Sources */,
+				C1A1369121E36B800059379A /* QuitButton.m in Sources */,
+				C1A136A621E47EA50059379A /* RegistViewController.m in Sources */,
+				C161BD5F21ECAC640094B9B1 /* XHChatQQ.m in Sources */,
+				C1A1368E21E365480059379A /* WatchViewController.m in Sources */,
+				C110359E21E70E7900408C87 /* RechargeViewController.m in Sources */,
+				C1A136A921E47EB70059379A /* LoginViewController.m in Sources */,
+				C1A136A021E46B340059379A /* WelcomeViewController.m in Sources */,
+				C1A1368821E33D330059379A /* ChapterCell.m in Sources */,
+				C1A1369A21E450F30059379A /* UIControl+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +593,6 @@
 			targetProxy = C1A1364521D34E410059379A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C1A1362A21D34E400059379A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1A1362B21D34E400059379A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C1A1362F21D34E410059379A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1A1363021D34E410059379A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C1A1364B21D34E410059379A /* Debug */ = {
@@ -433,34 +709,56 @@
 		};
 		C1A1364E21D34E410059379A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF1FEFEFBA8AB9DD372BCE4 /* Pods-Dirtoon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 943H4SZ399;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dirtoon",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Dirtoon/PrefixHeader.pch";
 				INFOPLIST_FILE = Dirtoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.Dirtoon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdqk.blackhole.Dirtoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C1A1364F21D34E410059379A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A22F46D5D995BC236E1CBF /* Pods-Dirtoon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 943H4SZ399;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Dirtoon",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Dirtoon/PrefixHeader.pch";
 				INFOPLIST_FILE = Dirtoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackhole.Dirtoon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdqk.blackhole.Dirtoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

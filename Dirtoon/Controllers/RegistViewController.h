@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginRegistField.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RegistViewController : UIViewController
+
+@property (strong, nonatomic) LoginRegistField *usernameField;
+
+@property (strong, nonatomic) LoginRegistField *passwordField;
+
+@property (strong, nonatomic) LoginRegistField *QQField;
 
 @end
 

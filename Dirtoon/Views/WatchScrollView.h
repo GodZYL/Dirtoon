@@ -12,6 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WatchScrollView : UIScrollView
 
+- (void)loadImagesWithArray:(NSArray *)imageArray;
+
+- (void)removeAllImageviews;
+
+@property (assign, nonatomic) int sort;
+
+@property (strong, nonatomic) NSMutableArray *imageArray;
+
+@property (strong, nonatomic) NSMutableArray *imageViewArray;
+
+@property (nonatomic, strong) UIActivityIndicatorView * activityIndicator;
+
 @end
 
 NS_ASSUME_NONNULL_END
